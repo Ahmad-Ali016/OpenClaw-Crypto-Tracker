@@ -9,7 +9,7 @@ def fetch_crypto_prices():
         # OpenClaw agent command
         result = subprocess.run(
             [
-                "openclaw",
+                r"C:\Users\AL GHANI COMPUTER\AppData\Roaming\npm\openclaw.cmd",
                 "agent",
                 "--agent",
                 "main",
