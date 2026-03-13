@@ -24,7 +24,7 @@ def fetch_crypto_prices():
             ],
             capture_output=True,
             text=True,
-            timeout=30
+            timeout=120
         )
 
         output = result.stdout
